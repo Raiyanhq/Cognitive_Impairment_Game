@@ -16,8 +16,15 @@ Requirements
 - Python 3.x
 - Pygame library
 
+You can install Pygame by running:
+
+# pip install pygame
+
 How to Run
 
 - Clone the repository.
 - Make sure you have the required card images (e.g., card1.png, card2.png, etc.) in the same directory as the Python script.
+- Run the game using:
+
+# python main.py
 
