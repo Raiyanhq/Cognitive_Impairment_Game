@@ -6,7 +6,7 @@ import time
 pygame.init()
 
 # Constants
-WIDTH, HEIGHT = 800, 600
+WIDTH, HEIGHT = 799, 599
 CARD_SIZE = 100
 GRID_SIZE = 4
 GRID_DIMENSION = GRID_SIZE * GRID_SIZE
