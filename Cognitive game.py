@@ -80,5 +80,5 @@ while running:
             pygame.draw.rect(screen, GRAY, card["rect"])
     pygame.display.flip()
 
-# Clean up and quit
+
 pygame.quit()
