@@ -29,7 +29,6 @@ for i in range(1, GRID_DIMENSION // 2 + 1):
 # Shuffle the cards
 random.shuffle(card_images)
 
-# Create the grid of cards
 cards = [None] * GRID_DIMENSION
 for i in range(GRID_DIMENSION):
     row, col = divmod(i, GRID_SIZE)
