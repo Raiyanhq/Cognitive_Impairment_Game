@@ -38,7 +38,6 @@ for i in range(GRID_DIMENSION):
         "visible": False,
     }
 
-# Game variables
 first_card = None
 pairs_found = 0
 clickable = True
