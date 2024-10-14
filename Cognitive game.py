@@ -68,7 +68,6 @@ while running:
                                 cards[i]["visible"] = cards[first_card]["visible"] = False
                             first_card = None
 
-    # Draw the screen
     screen.fill(WHITE)
     for card in cards:
         if card["visible"]:
