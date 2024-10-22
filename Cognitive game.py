@@ -15,7 +15,7 @@ WHITE = (255, 255, 255)
 GRAY = (200, 200, 200)
 BLACK = (0, 0, 0)
 
-# Create the game window
+
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Cognitive Impairment Memory Game")
 
