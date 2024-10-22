@@ -19,7 +19,7 @@ BLACK = (0, 0, 0)
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Cognitive Impairment Memory Game")
 
-# Load card images
+
 card_images = []
 for i in range(1, GRID_DIMENSION // 2 + 1):
     image = pygame.image.load(f'card{i}.png')
