@@ -25,7 +25,7 @@ for i in range(1, GRID_DIMENSION // 2 + 1):
     image = pygame.image.load(f'card{i}.png')
     card_images.extend([image, image])
 
-# Shuffle the cards
+
 random.shuffle(card_images)
 
 cards = [None] * GRID_DIMENSION
